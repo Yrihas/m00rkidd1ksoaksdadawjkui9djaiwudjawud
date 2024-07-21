@@ -1,0 +1,681 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ScreenGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint")
+local m00rkiddv120 = Instance.new("TextButton")
+local ImageButton = Instance.new("ImageButton")
+local hint = Instance.new("TextButton")
+local skybox2 = Instance.new("TextButton")
+local skybox = Instance.new("TextButton")
+local skybox3 = Instance.new("TextButton")
+local skybox4 = Instance.new("TextButton")
+local scp0961 = Instance.new("TextButton")
+local scp0962 = Instance.new("TextButton")
+local partdecalskyboxspam = Instance.new("TextButton")
+local partdecalskyboxspam2 = Instance.new("TextButton")
+local johndoe = Instance.new("TextButton")
+local c00lguiscripthub = Instance.new("TextButton")
+local c00lguiv2 = Instance.new("TextButton")
+
+--Properties:
+
+ScreenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+ScreenGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ScreenGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 204, 0)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 4
+Frame.Position = UDim2.new(0.155172527, 0, 0.0625, 0)
+Frame.Size = UDim2.new(0.785624981, 0, 0.890931368, 0)
+Frame.Active = true
+Frame.Draggable = true
+
+UIAspectRatioConstraint.Parent = Frame
+UIAspectRatioConstraint.AspectRatio = 1.404
+
+m00rkiddv120.Name = "m00rkidd v120"
+m00rkiddv120.Parent = Frame
+m00rkiddv120.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+m00rkiddv120.BackgroundTransparency = 1.000
+m00rkiddv120.BorderColor3 = Color3.fromRGB(0, 0, 0)
+m00rkiddv120.BorderSizePixel = 0
+m00rkiddv120.Position = UDim2.new(0.0898785815, 0, 0.00943396706, 0)
+m00rkiddv120.Size = UDim2.new(0.76323837, 0, 0.100258343, 0)
+m00rkiddv120.Font = Enum.Font.Bodoni
+m00rkiddv120.Text = "m00rgui v120 made by m00rkidd"
+m00rkiddv120.TextColor3 = Color3.fromRGB(0, 0, 0)
+m00rkiddv120.TextScaled = true
+m00rkiddv120.TextSize = 14.000
+m00rkiddv120.TextWrapped = true
+
+ImageButton.Parent = Frame
+ImageButton.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+ImageButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ImageButton.BorderSizePixel = 0
+ImageButton.Size = UDim2.new(0.0898786709, 0, 0.121577822, 0)
+ImageButton.Image = "http://www.roblox.com/asset/?id=10670510697"
+
+hint.Name = "hint"
+hint.Parent = Frame
+hint.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+hint.BackgroundTransparency = 0.450
+hint.BorderColor3 = Color3.fromRGB(0, 0, 0)
+hint.BorderSizePixel = 4
+hint.Position = UDim2.new(0.00998391863, 0, 0.138495237, 0)
+hint.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+hint.Font = Enum.Font.SourceSans
+hint.Text = "Hint"
+hint.TextColor3 = Color3.fromRGB(0, 0, 0)
+hint.TextScaled = true
+hint.TextSize = 14.000
+hint.TextWrapped = true
+
+skybox2.Name = "skybox 2"
+skybox2.Parent = Frame
+skybox2.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+skybox2.BackgroundTransparency = 0.450
+skybox2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skybox2.BorderSizePixel = 4
+skybox2.Position = UDim2.new(0.170589238, 0, 0.138495222, 0)
+skybox2.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+skybox2.Font = Enum.Font.SourceSans
+skybox2.Text = "skybox 2"
+skybox2.TextColor3 = Color3.fromRGB(0, 0, 0)
+skybox2.TextScaled = true
+skybox2.TextSize = 14.000
+skybox2.TextWrapped = true
+
+skybox.Name = "skybox"
+skybox.Parent = Frame
+skybox.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+skybox.BackgroundTransparency = 0.450
+skybox.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skybox.BorderSizePixel = 4
+skybox.Position = UDim2.new(0.0897878036, 0, 0.138495222, 0)
+skybox.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+skybox.Font = Enum.Font.SourceSans
+skybox.Text = "skybox"
+skybox.TextColor3 = Color3.fromRGB(0, 0, 0)
+skybox.TextScaled = true
+skybox.TextSize = 14.000
+skybox.TextWrapped = true
+
+skybox3.Name = "skybox 3"
+skybox3.Parent = Frame
+skybox3.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+skybox3.BackgroundTransparency = 0.450
+skybox3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skybox3.BorderSizePixel = 4
+skybox3.Position = UDim2.new(0.252388209, 0, 0.138495222, 0)
+skybox3.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+skybox3.Font = Enum.Font.SourceSans
+skybox3.Text = "skybox 3"
+skybox3.TextColor3 = Color3.fromRGB(0, 0, 0)
+skybox3.TextScaled = true
+skybox3.TextSize = 14.000
+skybox3.TextWrapped = true
+
+skybox4.Name = "skybox 4"
+skybox4.Parent = Frame
+skybox4.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+skybox4.BackgroundTransparency = 0.450
+skybox4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+skybox4.BorderSizePixel = 4
+skybox4.Position = UDim2.new(0.33418721, 0, 0.138495222, 0)
+skybox4.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+skybox4.Font = Enum.Font.SourceSans
+skybox4.Text = "skybox 4"
+skybox4.TextColor3 = Color3.fromRGB(0, 0, 0)
+skybox4.TextScaled = true
+skybox4.TextSize = 14.000
+skybox4.TextWrapped = true
+
+scp0961.Name = "scp 096 1"
+scp0961.Parent = Frame
+scp0961.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+scp0961.BackgroundTransparency = 0.450
+scp0961.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scp0961.BorderSizePixel = 4
+scp0961.Position = UDim2.new(0.665175855, 0, 0.138495237, 0)
+scp0961.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+scp0961.Font = Enum.Font.SourceSans
+scp0961.Text = "scp 096 [need hats v1]"
+scp0961.TextColor3 = Color3.fromRGB(0, 0, 0)
+scp0961.TextScaled = true
+scp0961.TextSize = 14.000
+scp0961.TextWrapped = true
+
+scp0962.Name = "scp 096 2"
+scp0962.Parent = Frame
+scp0962.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+scp0962.BackgroundTransparency = 0.450
+scp0962.BorderColor3 = Color3.fromRGB(0, 0, 0)
+scp0962.BorderSizePixel = 4
+scp0962.Position = UDim2.new(0.750767648, 0, 0.138495237, 0)
+scp0962.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+scp0962.Font = Enum.Font.SourceSans
+scp0962.Text = "scp 096 [need hats v2]"
+scp0962.TextColor3 = Color3.fromRGB(0, 0, 0)
+scp0962.TextScaled = true
+scp0962.TextSize = 14.000
+scp0962.TextWrapped = true
+
+partdecalskyboxspam.Name = "part,decal,skybox spam"
+partdecalskyboxspam.Parent = Frame
+partdecalskyboxspam.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+partdecalskyboxspam.BackgroundTransparency = 0.450
+partdecalskyboxspam.BorderColor3 = Color3.fromRGB(0, 0, 0)
+partdecalskyboxspam.BorderSizePixel = 4
+partdecalskyboxspam.Position = UDim2.new(0.41598618, 0, 0.138495222, 0)
+partdecalskyboxspam.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+partdecalskyboxspam.Font = Enum.Font.SourceSans
+partdecalskyboxspam.Text = "part,decal,sky spam"
+partdecalskyboxspam.TextColor3 = Color3.fromRGB(0, 0, 0)
+partdecalskyboxspam.TextScaled = true
+partdecalskyboxspam.TextSize = 14.000
+partdecalskyboxspam.TextWrapped = true
+
+partdecalskyboxspam2.Name = "part,decal,skybox spam 2"
+partdecalskyboxspam2.Parent = Frame
+partdecalskyboxspam2.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+partdecalskyboxspam2.BackgroundTransparency = 0.450
+partdecalskyboxspam2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+partdecalskyboxspam2.BorderSizePixel = 4
+partdecalskyboxspam2.Position = UDim2.new(0.497785181, 0, 0.138495222, 0)
+partdecalskyboxspam2.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+partdecalskyboxspam2.Font = Enum.Font.SourceSans
+partdecalskyboxspam2.Text = "part,decal,sky spam 2"
+partdecalskyboxspam2.TextColor3 = Color3.fromRGB(0, 0, 0)
+partdecalskyboxspam2.TextScaled = true
+partdecalskyboxspam2.TextSize = 14.000
+partdecalskyboxspam2.TextWrapped = true
+
+johndoe.Name = "john doe"
+johndoe.Parent = Frame
+johndoe.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+johndoe.BackgroundTransparency = 0.450
+johndoe.BorderColor3 = Color3.fromRGB(0, 0, 0)
+johndoe.BorderSizePixel = 4
+johndoe.Position = UDim2.new(0.579584122, 0, 0.138495222, 0)
+johndoe.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+johndoe.Font = Enum.Font.SourceSans
+johndoe.Text = "john doe"
+johndoe.TextColor3 = Color3.fromRGB(0, 0, 0)
+johndoe.TextScaled = true
+johndoe.TextSize = 14.000
+johndoe.TextWrapped = true
+
+c00lguiscripthub.Name = "c00lgui script hub"
+c00lguiscripthub.Parent = Frame
+c00lguiscripthub.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+c00lguiscripthub.BackgroundTransparency = 0.450
+c00lguiscripthub.BorderColor3 = Color3.fromRGB(0, 0, 0)
+c00lguiscripthub.BorderSizePixel = 4
+c00lguiscripthub.Position = UDim2.new(0.83595413, 0, 0.138495222, 0)
+c00lguiscripthub.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+c00lguiscripthub.Font = Enum.Font.SourceSans
+c00lguiscripthub.Text = "c00lgui fe script hub"
+c00lguiscripthub.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lguiscripthub.TextScaled = true
+c00lguiscripthub.TextSize = 14.000
+c00lguiscripthub.TextWrapped = true
+
+c00lguiv2.Name = "c00lgui v2"
+c00lguiv2.Parent = Frame
+c00lguiv2.BackgroundColor3 = Color3.fromRGB(255, 111, 28)
+c00lguiv2.BackgroundTransparency = 0.450
+c00lguiv2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+c00lguiv2.BorderSizePixel = 4
+c00lguiv2.Position = UDim2.new(0.92074573, 0, 0.138495222, 0)
+c00lguiv2.Size = UDim2.new(0.0697218627, 0, 0.071367994, 0)
+c00lguiv2.Font = Enum.Font.SourceSans
+c00lguiv2.Text = "c00lgui v2"
+c00lguiv2.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lguiv2.TextScaled = true
+c00lguiv2.TextSize = 14.000
+c00lguiv2.TextWrapped = true
+
+-- Scripts:
+
+local function VWME_fake_script() -- hint.LocalScript 
+	local script = Instance.new('LocalScript', hint)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local h = Instance.new("Hint")
+		h.Parent = Workspace 
+		h.Text = "team m00rkidd fucking server niggas"
+		wait(999999999999999999999999999999999)
+		h:Remove()
+	end)
+end
+coroutine.wrap(VWME_fake_script)()
+local function BZWVI_fake_script() -- skybox2.LocalScript 
+	local script = Instance.new('LocalScript', skybox2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Variables for Skybox asset IDs
+		local skyboxBk = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxDn = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxFt = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxLf = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxRt = "http://www.roblox.com/asset/?id=18214001344"
+		local skyboxUp = "http://www.roblox.com/asset/?id=18214001344"
+	
+		-- Function to create and set the skybox
+		local function setSkybox()
+			local newSkybox = Instance.new("Sky")
+	
+			newSkybox.Name = "CustomSkybox"
+			newSkybox.SkyboxBk = skyboxBk
+			newSkybox.SkyboxDn = skyboxDn
+			newSkybox.SkyboxFt = skyboxFt
+			newSkybox.SkyboxLf = skyboxLf
+			newSkybox.SkyboxRt = skyboxRt
+			newSkybox.SkyboxUp = skyboxUp
+	
+			-- Clear any existing skyboxes
+			for _, obj in pairs(game.Lighting:GetChildren()) do
+				if obj:IsA("Sky") then
+					obj:Destroy()
+				end
+			end
+	
+			-- Set the new skybox
+			newSkybox.Parent = game.Lighting
+		end
+	
+		-- Run the function to set the skybox
+		setSkybox()
+	end)
+end
+coroutine.wrap(BZWVI_fake_script)()
+local function PACV_fake_script() -- skybox.LocalScript 
+	local script = Instance.new('LocalScript', skybox)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Variables for Skybox asset IDs
+		local skyboxBk = "http://www.roblox.com/asset/?id=18213997018"
+		local skyboxDn = "http://www.roblox.com/asset/?id=18213997018"
+		local skyboxFt = "http://www.roblox.com/asset/?id=18213997018"
+		local skyboxLf = "http://www.roblox.com/asset/?id=18213997018"
+		local skyboxRt = "http://www.roblox.com/asset/?id=18213997018"
+		local skyboxUp = "http://www.roblox.com/asset/?id=18213997018"
+	
+		-- Function to create and set the skybox
+		local function setSkybox()
+			local newSkybox = Instance.new("Sky")
+	
+			newSkybox.Name = "CustomSkybox"
+			newSkybox.SkyboxBk = skyboxBk
+			newSkybox.SkyboxDn = skyboxDn
+			newSkybox.SkyboxFt = skyboxFt
+			newSkybox.SkyboxLf = skyboxLf
+			newSkybox.SkyboxRt = skyboxRt
+			newSkybox.SkyboxUp = skyboxUp
+	
+			-- Clear any existing skyboxes
+			for _, obj in pairs(game.Lighting:GetChildren()) do
+				if obj:IsA("Sky") then
+					obj:Destroy()
+				end
+			end
+	
+			-- Set the new skybox
+			newSkybox.Parent = game.Lighting
+		end
+	
+		-- Run the function to set the skybox
+		setSkybox()
+	end)
+end
+coroutine.wrap(PACV_fake_script)()
+local function QHFAU_fake_script() -- skybox3.LocalScript 
+	local script = Instance.new('LocalScript', skybox3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Variables for Skybox asset IDs
+		local skyboxBk = "http://www.roblox.com/asset/?id=18213980903"
+		local skyboxDn = "http://www.roblox.com/asset/?id=18213980903"
+		local skyboxFt = "http://www.roblox.com/asset/?id=18213980903"
+		local skyboxLf = "http://www.roblox.com/asset/?id=18213980903"
+		local skyboxRt = "http://www.roblox.com/asset/?id=18213980903"
+		local skyboxUp = "http://www.roblox.com/asset/?id=18213980903"
+	
+		-- Function to create and set the skybox
+		local function setSkybox()
+			local newSkybox = Instance.new("Sky")
+	
+			newSkybox.Name = "CustomSkybox"
+			newSkybox.SkyboxBk = skyboxBk
+			newSkybox.SkyboxDn = skyboxDn
+			newSkybox.SkyboxFt = skyboxFt
+			newSkybox.SkyboxLf = skyboxLf
+			newSkybox.SkyboxRt = skyboxRt
+			newSkybox.SkyboxUp = skyboxUp
+	
+			-- Clear any existing skyboxes
+			for _, obj in pairs(game.Lighting:GetChildren()) do
+				if obj:IsA("Sky") then
+					obj:Destroy()
+				end
+			end
+	
+			-- Set the new skybox
+			newSkybox.Parent = game.Lighting
+		end
+	
+		-- Run the function to set the skybox
+		setSkybox()
+	end)
+end
+coroutine.wrap(QHFAU_fake_script)()
+local function ATDC_fake_script() -- skybox4.LocalScript 
+	local script = Instance.new('LocalScript', skybox4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		-- Variables for Skybox asset IDs
+		local skyboxBk = "http://www.roblox.com/asset/?id=18575100094"
+		local skyboxDn = "http://www.roblox.com/asset/?id=18575100094"
+		local skyboxFt = "http://www.roblox.com/asset/?id=18575100094"
+		local skyboxLf = "http://www.roblox.com/asset/?id=18575100094"
+		local skyboxRt = "http://www.roblox.com/asset/?id=18575100094"
+		local skyboxUp = "http://www.roblox.com/asset/?id=18575100094"
+	
+		-- Function to create and set the skybox
+		local function setSkybox()
+			local newSkybox = Instance.new("Sky")
+	
+			newSkybox.Name = "CustomSkybox"
+			newSkybox.SkyboxBk = skyboxBk
+			newSkybox.SkyboxDn = skyboxDn
+			newSkybox.SkyboxFt = skyboxFt
+			newSkybox.SkyboxLf = skyboxLf
+			newSkybox.SkyboxRt = skyboxRt
+			newSkybox.SkyboxUp = skyboxUp
+	
+			-- Clear any existing skyboxes
+			for _, obj in pairs(game.Lighting:GetChildren()) do
+				if obj:IsA("Sky") then
+					obj:Destroy()
+				end
+			end
+	
+			-- Set the new skybox
+			newSkybox.Parent = game.Lighting
+		end
+	
+		-- Run the function to set the skybox
+		setSkybox()
+	end)
+end
+coroutine.wrap(ATDC_fake_script)()
+local function PNXBO_fake_script() -- scp0961.LocalScript 
+	local script = Instance.new('LocalScript', scp0961)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-SCP-096-REANIMATE-Read-Desc-Suggested-By-user47527alt-15159"))()
+	end)
+end
+coroutine.wrap(PNXBO_fake_script)()
+local function SHXJ_fake_script() -- scp0962.LocalScript 
+	local script = Instance.new('LocalScript', scp0962)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://pastebin.com/raw/P0q5PQRp'))()
+	end)
+end
+coroutine.wrap(SHXJ_fake_script)()
+local function TUXR_fake_script() -- partdecalskyboxspam.LocalScript 
+	local script = Instance.new('LocalScript', partdecalskyboxspam)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = 18213993071
+		local Skybox = true
+		local particle = true
+	
+		-- DO NOT CHANGE BELOW. UNLESS YOU KNOW WHAT YOU'RE DOING.
+	
+		for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Part") then
+				local decal1 =Instance.new("Decal")
+				local decal2 =Instance.new("Decal")
+				local decal3 =Instance.new("Decal")
+				local decal4 =Instance.new("Decal")
+				local decal5 =Instance.new("Decal")
+				local decal6 =Instance.new("Decal")
+				decal1.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal3.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal4.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal5.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal6.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal1.Parent = v
+				decal2.Parent = v
+				decal3.Parent = v
+				decal4.Parent = v
+				decal5.Parent = v
+				decal6.Parent = v
+				decal1.Face = "Front"
+				decal2.Face = "Top"
+				decal3.Face = "Left"
+				decal4.Face = "Right"
+				decal5.Face = "Bottom"
+				decal6.Face = "Back"
+			end
+		end
+		for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Model") then
+				for i,z in pairs (v:GetChildren()) do
+					if z:IsA("Part") then
+						local decal7 =Instance.new("Decal")
+						local decal8 =Instance.new("Decal")
+						local decal9 =Instance.new("Decal")
+						local decal10 =Instance.new("Decal")
+						local decal11 =Instance.new("Decal")
+						local decal12 =Instance.new("Decal")
+						decal7.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal8.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal9.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal10.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal11.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal12.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal7.Parent = z
+						decal8.Parent = z
+						decal9.Parent = z
+						decal10.Parent = z
+						decal11.Parent = z
+						decal12.Parent = z
+						decal7.Face = "Front"
+						decal8.Face = "Top"
+						decal9.Face = "Left"
+						decal10.Face = "Right"
+						decal11.Face = "Bottom"
+						decal12.Face = "Back"
+					end
+				end
+			end
+		end	
+	
+	
+		if Skybox == true then
+			local sky = Instance.new("Sky")
+			sky.Parent = game.Lighting
+			sky.SkyboxBk = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxDn = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxFt = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxLf = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxRt = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxUp = "http://www.roblox.com/asset/?id=" ..ID
+		end
+	
+		if particle == true then
+			for i,v in pairs (game.Workspace:GetChildren()) do
+				if v:IsA("Part") then
+					local particle = Instance.new("ParticleEmitter")
+					particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+					particle.Parent = v
+					particle.Rate = 200
+					for i,x in pairs (game.Workspace:GetChildren()) do
+						if x:IsA("Model") then
+							for i,z in pairs (x:GetChildren()) do
+								if z:IsA("Part") then
+									local particle2 = Instance.new("ParticleEmitter")
+									particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+									particle2.Parent = z
+									particle2.Rate = 200
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(TUXR_fake_script)()
+local function IFVX_fake_script() -- partdecalskyboxspam2.LocalScript 
+	local script = Instance.new('LocalScript', partdecalskyboxspam2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local ID = 18575276185
+		local Skybox = true
+		local particle = true
+	
+		-- DO NOT CHANGE BELOW. UNLESS YOU KNOW WHAT YOU'RE DOING.
+	
+		for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Part") then
+				local decal1 =Instance.new("Decal")
+				local decal2 =Instance.new("Decal")
+				local decal3 =Instance.new("Decal")
+				local decal4 =Instance.new("Decal")
+				local decal5 =Instance.new("Decal")
+				local decal6 =Instance.new("Decal")
+				decal1.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal3.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal4.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal5.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal6.Texture = "http://www.roblox.com/asset/?id=" ..ID
+				decal1.Parent = v
+				decal2.Parent = v
+				decal3.Parent = v
+				decal4.Parent = v
+				decal5.Parent = v
+				decal6.Parent = v
+				decal1.Face = "Front"
+				decal2.Face = "Top"
+				decal3.Face = "Left"
+				decal4.Face = "Right"
+				decal5.Face = "Bottom"
+				decal6.Face = "Back"
+			end
+		end
+		for i,v in pairs (game.Workspace:GetChildren()) do
+			if v:IsA("Model") then
+				for i,z in pairs (v:GetChildren()) do
+					if z:IsA("Part") then
+						local decal7 =Instance.new("Decal")
+						local decal8 =Instance.new("Decal")
+						local decal9 =Instance.new("Decal")
+						local decal10 =Instance.new("Decal")
+						local decal11 =Instance.new("Decal")
+						local decal12 =Instance.new("Decal")
+						decal7.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal8.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal9.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal10.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal11.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal12.Texture = "http://www.roblox.com/asset/?id=" ..ID
+						decal7.Parent = z
+						decal8.Parent = z
+						decal9.Parent = z
+						decal10.Parent = z
+						decal11.Parent = z
+						decal12.Parent = z
+						decal7.Face = "Front"
+						decal8.Face = "Top"
+						decal9.Face = "Left"
+						decal10.Face = "Right"
+						decal11.Face = "Bottom"
+						decal12.Face = "Back"
+					end
+				end
+			end
+		end	
+	
+	
+		if Skybox == true then
+			local sky = Instance.new("Sky")
+			sky.Parent = game.Lighting
+			sky.SkyboxBk = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxDn = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxFt = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxLf = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxRt = "http://www.roblox.com/asset/?id=" ..ID
+			sky.SkyboxUp = "http://www.roblox.com/asset/?id=" ..ID
+		end
+	
+		if particle == true then
+			for i,v in pairs (game.Workspace:GetChildren()) do
+				if v:IsA("Part") then
+					local particle = Instance.new("ParticleEmitter")
+					particle.Texture = "http://www.roblox.com/asset/?id=" ..ID
+					particle.Parent = v
+					particle.Rate = 200
+					for i,x in pairs (game.Workspace:GetChildren()) do
+						if x:IsA("Model") then
+							for i,z in pairs (x:GetChildren()) do
+								if z:IsA("Part") then
+									local particle2 = Instance.new("ParticleEmitter")
+									particle2.Texture = "http://www.roblox.com/asset/?id=" ..ID
+									particle2.Parent = z
+									particle2.Rate = 200
+								end
+							end
+						end
+					end
+				end
+			end
+		end
+	end)
+end
+coroutine.wrap(IFVX_fake_script)()
+local function VQMKIK_fake_script() -- johndoe.LocalScript 
+	local script = Instance.new('LocalScript', johndoe)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://rawscripts.net/raw/Universal-Script-John-doe-script-by-g00byd0lan-10381"))()
+	end)
+end
+coroutine.wrap(VQMKIK_fake_script)()
+local function DZJMY_fake_script() -- c00lguiscripthub.LocalScript 
+	local script = Instance.new('LocalScript', c00lguiscripthub)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+	end)
+end
+coroutine.wrap(DZJMY_fake_script)()
+local function UHGE_fake_script() -- c00lguiv2.LocalScript 
+	local script = Instance.new('LocalScript', c00lguiv2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+	end)
+end
+coroutine.wrap(UHGE_fake_script)()
+local function UXCYOTE_fake_script() -- ScreenGui.LocalScript 
+	local script = Instance.new('LocalScript', ScreenGui)
+
+	frame = script.Parent.Frame
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(UXCYOTE_fake_script)()
